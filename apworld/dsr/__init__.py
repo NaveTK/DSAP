@@ -83,11 +83,12 @@ class DSRWorld(World):
         "external_pack_key" : "ut_poptracker_path",
         "map_page_setting_key" : "DSR_current_map_{team}_{player}",
         "map_page_index" : map_page_index,
-        "map_page_item_layouts_left": [
+        "item_page_items" : "items/items.json",
+        "map_page_item_layouts_left" : [
             { "name": "Lord Souls",        "items": ["Lordvessel", "Lord Souls"],       "orientation": "lr", "cols": 5 },
             { "name": "Progression Items", "items": ["Key items", "Progression Items"], "orientation": "lr", "cols": 5 },
-            { "name": "Fog Walls",         "items": "Fog Wall Keys",                    "orientation": "lr", "rows": 6, "item_size": (36, 48) },
-            { "name": "Boss Fog Walls",    "items": "Boss Fog Wall Keys",               "orientation": "lr", "rows": 6, "item_size": (36, 48) }
+            { "name": "Fog Walls",         "items": "Fog Wall Keys",                    "orientation": "lr", "cols": 6, "item_size": (36, 48) },
+            { "name": "Boss Fog Walls",    "items": "Boss Fog Wall Keys",               "orientation": "lr", "cols": 6, "item_size": (36, 48) }
         ]
     }
 
